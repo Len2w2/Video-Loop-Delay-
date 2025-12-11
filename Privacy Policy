@@ -1,0 +1,43 @@
+🔒 Privacy Policy for Video Loop & Delay Extension
+This Privacy Policy describes how the Video Loop & Delay browser extension ("the Extension") handles user data and information. We are committed to protecting your privacy, and we adhere to a principle of minimum data collection and local processing.
+
+1. Data Collected and Processed
+The Extension operates strictly on a local-only basis and is designed to minimize data collection. It collects and uses the following types of information, all of which are processed exclusively within your local browser environment:
+
+A. Web History (Current URL)
+What is collected: The Uniform Resource Locator (URL) of the tab currently active in your browser is accessed (e.g., window.location.href).
+
+Purpose: The URL is accessed only to determine if it contains the user-defined Allowed Site (e.g., "youtube.com"). This check is essential to ensure the Extension's core features (countdown delay and video jumping) only activate on the specific website you have designated in the settings, preventing unwanted behavior on other sites.
+
+B. User Settings (Local Stored Data)
+What is collected: The Extension saves your configuration settings using the Chrome Storage API (chrome.storage.sync), which synchronizes the data across your signed-in Chrome instances. This data includes:
+
+Extension Status: Whether the features are currently enabled or disabled.
+
+Delay Time: The number of seconds for the countdown/delay.
+
+Allowed Site: The user-defined domain where the extension should operate.
+
+Start Time: The calculated time in seconds for the "Jump to Start" feature.
+
+Purpose: These settings are used solely to control the functional parameters of the Extension as configured by you.
+
+2. How Data is Used and Stored
+Local Processing: All data collection and processing activities are confined entirely to your local browser environment. The Extension does not use any external APIs or servers to process data.
+
+No Sharing or Transfer: The Extension does not sell, rent, trade, or transfer any user data, including URLs, saved settings, or any other information, to any third parties or external servers.
+
+Single Purpose Use: The data is used exclusively for purposes directly related to the Extension's intended video utility (countdown, seeking, and looping) and for maintaining the user's settings. The data is never used for advertising, behavioral tracking, determining creditworthiness, or any purpose unrelated to the Extension's core functionality.
+
+3. Data Retention and Security
+Retention: User Settings are retained until you either change them, uninstall the Extension, or manually clear your browser's synchronized storage.
+
+Security: As all data is processed locally and no data leaves your browser, the risk of external interception is minimized. Access to the stored settings is governed by Chrome's security model.
+
+4. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. We will notify users of any material changes by updating the policy on this page and/or through the Extension's page on the Chrome Web Store.
+
+5. Contact Information
+If you have any questions or concerns about this Privacy Policy or the data practices of the Video Loop & Delay Extension, please contact the developer:
+
+[VideoLoop&Delay@outlkook.com]
